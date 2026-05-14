@@ -104,7 +104,7 @@ strings.Contains(a.Val, class)
 **Correção:** Usando strings.Fields() para verificar a classe. Evitamos falsos positivos, pois ele separa as classes por espaço e verifica se a classe é igual.
 
 ---
-## Bibliotecas utilizadas
+## Bibliotecas adicionadas
 
 | Biblioteca | Motivo |
 |---|---|
