@@ -150,7 +150,7 @@ Request HTTP
 Go oferece **concorrência nativa** com goroutines, compilação rápida, e stdlib robusta para HTTP. O scraping paralelo de 20 páginas é natural com `sync.WaitGroup` e semáforo por canal.
 
 ### Por que `net/http` + `goquery`?
-- `net/http` (stdlib) oferece controle total sobre headers, TLS e timeout sem dependências extras.
+- `net/http` (stdlib) oferece controle total sobre headers sem dependências extras.
 - `goquery` é a biblioteca padrão para parsing HTML estático.
 
 ### Scraping paralelo com semáforo
