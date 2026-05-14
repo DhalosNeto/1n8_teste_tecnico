@@ -117,6 +117,7 @@ strings.Contains(a.Val, class)
 
 ```bash
 # Instalar dependência
+cd crawler_teste_2
 go mod init crawler
 go get golang.org/x/net/html
 
